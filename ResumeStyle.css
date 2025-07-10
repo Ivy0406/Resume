@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+    width: 100%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+.content1{
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 71px;
+}
+
+.content1header{
+    margin-top: 37px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid black;
+    line-height: 1.5;
+}
+
+.content1 h1{
+    text-align: left;
+    font-size: 80px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content1 img{
+    width: 100%;
+    height: 100%;
+    max-width: 324px;
+    max-height: 324px;
+    object-fit: cover; 
+    border-radius: 50%;
+    object-position: center top; 
+    margin-top: 32px;
+}
+
+.content1 h2,h3{
+    display:inline-block
+}
+
+.content1 h2{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 32px;
+}
+
+.content1 h3{
+    margin-left: 16px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A00404;
+}
+
+.content1 p{
+    text-align: left;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills{
+    background-color: #415165;
+    padding: 31px;
+}
+
+.skillsheader{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid white;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-bottom: 31px;
+    padding-bottom: 16px;
+}
+
+.skillsheader h2,h3{
+    display: inline-block;
+}
+
+
+.skillscontent{
+    width: 100%;
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    border-left: 1px solid#96A9C4;
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.work{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+}
+
+.workheader{
+    padding-bottom: 16px;
+    border-bottom: 1px solid black;
+    margin-top: 32px;
+}
+
+.workheader h2,h3{
+    display: inline-block;
+}
+
+.workheader h2{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.workheader h3{
+    margin-left: 16px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A00404;
+}
+
+.workcontent{
+    margin-left: 16px;
+    border-left: 1px solid#96A9C4;
+    padding-left: 16px;
+}
+
+.workcontent img{
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.workcontent h4,h5{
+    font-size: 24px;
+}
+
+.workcontent h4{
+    margin-top: 16px;
+}
+
+.workcontent p{
+    font-size: 20px;
+}
+
+
+.footer{
+    background-color: #415165;
+    padding: 31px;
+}
+
+.footerheader{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid white;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-bottom: 31px;
+    padding-bottom: 16px;
+}
+
+.footercontent{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.footercontent img{
+    margin: 24px;
+}
